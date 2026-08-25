@@ -1,0 +1,57 @@
+/* ===== 亮色默认（白天：现代灰白风） ===== */
+:root {
+  /* 顶栏：白色 + 深灰文字 */
+  --app-header-bg: #ffffff;
+  --app-header-text: #303133;
+  --app-header-hover: rgba(0, 0, 0, 0.06);
+  /* 侧边栏：浅灰白现代风 */
+  --el-menu-bg-color: #f0f2f5;
+  --el-menu-text-color: #606266;
+  --el-menu-hover-bg-color: #e0e3e8;
+  --el-menu-hover-text-color: #606266;
+  --el-menu-active-color: #409eff;
+  --el-menu-active-bg-color: #e0e3e8;
+  --app-menu-sub-bg: #e4e7ed;
+  /* Logo 区（白天） */
+  --app-logo-bg: #e0e3e8;
+  --app-logo-text: #303133;
+}
+
+/* ===== 暗色主题变量覆盖 =====
+   基于 Element Plus 官方 dark/css-vars.css，把"接近纯黑"的背景/边框
+   调整为更柔和的深蓝灰，避免纯黑刺眼 */
+html.dark {
+  /* 背景：柔和深蓝灰（非纯黑） */
+  --el-bg-color: #1e2632;
+  --el-bg-color-page: #171d26;
+  --el-bg-color-overlay: #252e3d;
+  --el-fill-color: #202a38;
+  --el-fill-color-light: #1a2330;
+  --el-fill-color-lighter: #161e29;
+  --el-fill-color-extra-light: #131a23;
+  --el-fill-color-dark: #2a3444;
+  --el-fill-color-darker: #303b4d;
+  --el-fill-color-blank: #1e2632;
+  /* 边框：带蓝调的深灰 */
+  --el-border-color: #3d4a5a;
+  --el-border-color-light: #36424f;
+  --el-border-color-lighter: #303b48;
+  --el-border-color-extra-light: #2a3440;
+  --el-border-color-dark: #475566;
+  --el-border-color-darker: #525f70;
+  /* 顶栏背景（暗色，比内容区略亮，与侧边栏 #304156 协调） */
+  --app-header-bg: #253141;
+  --app-header-text: #FFF;
+  --app-header-hover: rgba(255, 255, 255, 0.2);
+  /* 侧边栏：黑夜恢复深藏蓝 */
+  --el-menu-bg-color: #304156;
+  --el-menu-text-color: #bfcbd9;
+  --el-menu-hover-bg-color: #001528;
+  --el-menu-hover-text-color: #bfcbd9;
+  --el-menu-active-color: #409eff;
+  --el-menu-active-bg-color: #001528;
+  --app-menu-sub-bg: #1f2d3d;
+  /* Logo 区（黑夜） */
+  --app-logo-bg: #2b2f3a;
+  --app-logo-text: #FFF;
+}

@@ -1,0 +1,42 @@
+# ===== Node.js =====
+node_modules/
+dist/
+
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 环境变量（含敏感信息，不提交） =====
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ===== 后端敏感配置（数据库密码 / JWT 密钥等，不提交） =====
+**/application-active.yml
+**/application-test.yml
+**/application-prod.yml
+
+# ===== 运行时上传文件（用户文档，不提交） =====
+**/upload/
+
+# ===== 本地 Maven classpath =====
+**/cp.txt
+
+# ===== Claude 本地配置 =====
+.claude/
+
+# ===== 日志 =====
+*.log
+velocity.log
+
+# ===== 系统 =====
+.DS_Store
+Thumbs.db
